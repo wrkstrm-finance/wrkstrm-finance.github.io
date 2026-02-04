@@ -19,3 +19,10 @@ Foundations for finance domain modeling, ledgers, and reporting in the Wrkstrm e
 ### Overview
 
 - <doc:GettingStarted>
+- <doc:Libraries>
+
+### Broker libraries
+
+- <doc:CommonBroker>
+- <doc:SwiftPublicBrokerageLib>
+- <doc:SwiftTradierLib>
