@@ -39,8 +39,7 @@ jobs:
           docc convert "index.docc" \
             --output-path "${output_root}" \
             --transform-for-static-hosting \
-            --hosting-base-path / \
-            --additional-css-file "docc-overrides.css"
+            --hosting-base-path /
           # Documentation index fallback (only when DocC didn't generate it).
           if [ -f "documentation/index/index.html" ] && [ ! -f "${output_root}/documentation/index/index.html" ]; then
             mkdir -p "${output_root}/documentation/index"
